@@ -6017,7 +6017,7 @@ void ImGui::TreePushOverrideID(ImGuiID id)
     ImGuiWindow* window = g.CurrentWindow;
     Indent();
     window->DC.TreeDepth++;
-    window->IDStack.push_back(id);
+    PushOverrideID(id);
 }
 
 void ImGui::TreePop()

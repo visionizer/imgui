@@ -42,6 +42,8 @@ Breaking Changes:
 
 Other Changes:
 
+- Debug: Stack Tool: Added "Stack Tool" available in Demo window or by calling ShowStackToolWindow().
+  The tools run queries on hovered id to display details about how the ID was hashed. [@ocornut, @rokups]
 - Windows: Fixed background order of overlapping childs submitted sequentially. (#4493)
 - IsWindowFocused: Added ImGuiFocusedFlags_NoPopupHierarchy flag allowing to exclude child popups
   from the tested windows when combined with _ChildWindows.
